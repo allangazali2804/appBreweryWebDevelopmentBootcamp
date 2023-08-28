@@ -1,4 +1,5 @@
 // Run this code in your browser
+//KODE PERTAMA
 /* Kode yang salah: Sebuah function seharusnya dipanggil, bukan seperti di bawah. Lalu, dalam melakukan perintah alih-alih
 menggunakan keyword deklarasi variabel, seharusnya untuk perintah menggunakan keyword "return"
 var bottle = prompt("How many bottle did you buy?");
@@ -8,6 +9,7 @@ function milkCost (bottle) {
 }
 */
 
+//KODE KEDUA
 //Kode yang berjalan dengan baik:
 
 //A variable declaration to get the number of bottles of milk the customer bought.
@@ -23,3 +25,19 @@ console.log(milkCost(bottle));
 
 // Alert function to show to customer the amount of money they need to pay.
 alert("Amount of money that you need is about " + "$" + milkCost(bottle));
+
+//KODE KETIGA
+/*
+function getMilk(money) {
+    console.log("buy " + Math.floor((money/1.5)) +" bottles of milk");
+}
+
+getMilk(7);
+*/
+
+function getMilk(money) {
+    var numberOfBottles = Math.floor((money/1.5))
+    console.log("buy " + numberOfBottles + " bottles of milk");
+}
+
+getMilk(7);
