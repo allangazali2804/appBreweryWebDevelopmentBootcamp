@@ -15,7 +15,7 @@ console.log(capital["Indonesia"]);
 
 
 function multiply(num) {
-    total = num * num;
+    return num * num;
 }
 
 const result = multiply(3);
