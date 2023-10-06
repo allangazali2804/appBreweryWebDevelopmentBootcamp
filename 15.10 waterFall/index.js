@@ -1,7 +1,7 @@
 function waterFall(){
     let array = [];
     let variable = 0;
-    let number = prompt("Input your number!");
+    let number = prompt("Input your number");
     
     while(variable < number) {
     variable++;
