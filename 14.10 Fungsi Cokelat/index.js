@@ -3,7 +3,7 @@ let hargaSusu = prompt("Berapa harga sebotol susu?");
 
 function beliSusu(uang, hargaSusu){
     alert("Kamu dapat membeli " + hitungBotol(uang, hargaSusu) + " botol susu "
-        + "dan kembaliannya adalah Rp" + hitungKembalian(uang, hargaSusu));
+        + "dan kembaliannya adalah Rp" + hitungKembalian(uang, hargaSusu) + ". Selamat menikmati!);
 }
 
 function hitungBotol(uangMula, hargaSebotol){
